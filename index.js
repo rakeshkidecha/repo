@@ -1,5 +1,7 @@
 let a =10;
 console.log(a);
 
-console.log(global);
+
+let argv =process.argv;
+console.log(argv);
   
